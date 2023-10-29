@@ -1,7 +1,7 @@
 # DS1086-Adapter
 SMT to DIP-8 Adapter for the DS1086 Programmable Clock Generator, Including an Arduino Sketch to program the chip
 
-![Untitled](https://github.com/ProxyPlayerHD/DS1086-Adapter/assets/13576843/deef6aab-cdf6-44c2-8f2b-c0180505e065)
+![Clock Compare](https://github.com/ProxyPlayerHD/DS1086-Adapter/assets/13576843/87c2b05f-d628-474a-8636-fb0a0fa41ba7)
 
 This repo has the full Kicad Project including gerbers, and a PDF of the schematic. Of course it also includes the Arduino Sketch which contains the code nessesary to program the chip over a CLI like interface via serial.
 
@@ -21,3 +21,4 @@ note that the DAC Register always reads the same value regardless of the content
 
 On a different note the headers for the programming interface are split because of space constraints as i wanted the whole thing to fit into the footprint of an actual DIP-8 Oscillator can.
 If vertial space is a premium, the programming headers can be left unpopulated in which case you just put some wires into the holes and hold them with your fingers while programming it.
+
